@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do dia</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img src="./assets/magic-ball.png" alt="bola de cristal" />
+      <h1>Quer saber como será o seu dia?</h1>
+      <p>
+        Se a resposta for sim... eu tenho uma condição simples. Copie a frase
+        abaixo exatamente do jeito que está e clique no botão para saber a
+        previsão de hoje.
+      </p>
+
+      <input id="inputSim" type="text" placeholder="Sim, eu quero" />
+      <button id="buttonResposta" onclick="fazerPergunta()">
+        Clique para saber a previsão de hoje
+      </button>
+
+      <h3 id="resposta"></h3>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
